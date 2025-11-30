@@ -1,0 +1,18 @@
+Universal Modular API – Customer Integration Guide (Demo Version)
+
+1. Purpose
+-----------
+This is a demo skeleton of the API. It allows your app to submit data and store it in a local folder.
+
+2. Usage
+--------
+- POST /data/submit
+- Parameters:
+    - app_name: name of your app
+    - payload: data to store
+- Returns:
+    - saved_path: path of saved file
+    - is_sensitive: always False in demo
+    - next_actions: ["auto_save"]
+
+🎉 Fun note: This package was created during an epic collaboration between Tom and Brain — if AI could high-five, we’d be doing it right now. 😎
